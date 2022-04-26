@@ -4,6 +4,11 @@ public class OptionCount {
     private Long optionId;
     private int count;
 
+    public OptionCount(Long optionId, int count) {
+        this.optionId = optionId;
+        this.count = count;
+    }
+
     public Long getOptionId() {
         return optionId;
     }
